@@ -9,7 +9,7 @@ Support Vector Machines (SVM), K-Nearest Neighbours and Decision Trees. Further 
 in the corresponding report.
 
 Organisation and role of files:
-This folder consists of 6, including the README file, files required to run the classifiers for the two tasks. A description of the files 
+This folder consists of 8, including the README file, files required to run the classifiers for the two tasks. A description of the files 
 are listed below:
 1) README file containing a description and instructions on how to run the project.
 2) Task A final code - the final iteration Jupyter Notebook file containing the three classifiers used for Task A (binary task)
@@ -19,14 +19,14 @@ purposes
 5) Task B parameter tuning code - this iteration contains codes for loops and plots that were used for classifier's parameter tuning 
 purposes
 6) A screenshot showing an example of what this folder and its content should be for the classifiers to run successfully
+7) A dataset folder containing the training dataset of 3000 MRI images and the corresponding label csv file
+8) A test folder containing the test dataset of 200 MRI images and the corresponding label csv file
 
-Please note that due to size constraints the training and test dataset are not included here and can be found at:
+If there are issues with the dataset and test folders, please note that the training and test dataset can be found at:
 Training dataset: http://shorturl.at/hquDP
 Test dataset: https://drive.google.com/file/d/1LS_C_4_iOeqOyEoWPPoksrk8lqdBKagB/view
 
-Additionally before running the Jupyter Notebook files please download the datasets and export the dataset and test folders within the zip 
-files to this folder so that the python files can carry out the necessary sorting and preprocessing of the tumour images. A screenshot of 
-how this folder should look like before running the codes is provided.
+A screenshot of how the folder should look like before running the python codes is provided.
 
 How to run the code: 
 - Task A final code and Task B final code are the two main files necessary to run the final classifier models for the project and both 
